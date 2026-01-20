@@ -22,7 +22,7 @@ export function Header() {
             {/* Bagian teks tetap sama */}
             <div>
               <div className="text-primary">KKN-T</div>
-              <div className="text-xs text-muted-foreground hidden sm:block">Gedangrejo</div>
+              <div className="text-xs text-muted-foreground hidden sm:block">Jatiayu</div>
             </div>
           </div>
 

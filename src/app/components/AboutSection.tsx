@@ -10,7 +10,7 @@ export function AboutSection() {
           </h2>
           <div className="w-24 h-1 bg-accent mx-auto mb-6"></div>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            Kami merupakan pusat UMKM di Gedangrejo yang berdedikasi mempromosikan produk lokal unggulan. 
+            Kami merupakan pusat UMKM di Jatiayu yang berdedikasi mempromosikan produk lokal unggulan. 
             Seluruh produk kami diolah secara manual (handmade) oleh warga setempat, 
             memadukan resep warisan leluhur dengan bahan-bahan alami berkualitas dari petani sekitar.
           </p>
@@ -36,7 +36,7 @@ export function AboutSection() {
             </div>
             <h3 className="text-primary">Bahan Lokal Alami</h3>
             <p className="text-muted-foreground">
-              Menggunakan bahan baku dari petani lokal Gedangrejo, 
+              Menggunakan bahan baku dari petani lokal Jatiayu, 
               tanpa pengawet dan pewarna buatan.
             </p>
           </div>
@@ -49,7 +49,7 @@ export function AboutSection() {
             <h3 className="text-primary">Memberdayakan Komunitas</h3>
             <p className="text-muted-foreground">
               Melibatkan warga sekitar dan petani lokal, 
-              berkontribusi pada ekonomi masyarakat Gedangrejo.
+              berkontribusi pada ekonomi masyarakat Jatiayu.
             </p>
           </div>
         </div>
