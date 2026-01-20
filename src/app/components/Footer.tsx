@@ -28,7 +28,7 @@ export function Footer() {
                 <Instagram className="w-5 h-5" />
               </a>
               <a 
-                href="https://wa.me/6281234567890" 
+                href="https://wa.me/6282241651176" 
                 className="w-10 h-10 bg-accent hover:bg-accent/90 rounded-full flex items-center justify-center transition-colors"
                 aria-label="WhatsApp"
               >
@@ -63,8 +63,8 @@ export function Footer() {
               <li className="flex items-start gap-3">
                 <Phone className="w-5 h-5 mt-1 flex-shrink-0" />
                 <div>
-                  <a href="tel:+6281234567890" className="hover:text-accent transition-colors">
-                    +62 812-3456-7890
+                  <a href="tel:+6282241651176" className="hover:text-accent transition-colors">
+                    +62 822-4165-1176
                   </a>
                 </div>
               </li>
@@ -105,7 +105,7 @@ export function Footer() {
               className="w-full bg-accent hover:bg-accent/90"
               asChild
             >
-              <a href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/6282241651176" target="_blank" rel="noopener noreferrer">
                 <MessageCircle className="w-4 h-4 mr-2" />
                 Chat via WhatsApp
               </a>
@@ -115,7 +115,7 @@ export function Footer() {
 
         {/* Bottom Bar */}
         <div className="border-t border-white/20 pt-8 text-center text-white/60">
-          <p>&copy; 2026 Camilan Gedangrejo. Semua hak cipta dilindungi.</p>
+          <p>&copy; 2026 Camilan Jatiayu. Semua hak cipta dilindungi.</p>
         </div>
       </div>
     </footer>
