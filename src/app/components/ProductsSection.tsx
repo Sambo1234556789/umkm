@@ -5,7 +5,7 @@ import { MessageCircle, Star, X } from "lucide-react";
 import DawetImg from "../../assets/Dawet_Pakdul.jpeg";
 import BaksoImg from "../../assets/Bakso_MasDarno.jpeg";
 import KripikImg from "../../assets/Kripik_Lariso.jpeg";
-import GudegImg from "../../assets/Gudek_Laras.jpeg";
+import KrupukImg from "../../assets/Anisa_Krupuk.png";
 import NasiPadangImg from "../../assets/Nasi_Padang.jpeg";
 import AlpukatKocokImg from "../../assets/Alpukat_Kocok.jpeg";
 
@@ -27,7 +27,7 @@ const products = [
     name: "Anisa Krupuk (Aneka Kerupuk)",
     description: "Anisa Kerupuk menghadirkan berbagai cita rasa kerupuk buatan lokal sejak 2019 dengan pelayanan sepenuh hati.",
     price: "Mulai Rp 5.000",
-    image: GudegImg, // Ilustrasi Gudeg
+    image: KrupukImg, // Ilustrasi Krupuk
     rating: 4.8,
     sold: "450+ /Minggu",
     category: "Makanan Ringan",
@@ -86,7 +86,7 @@ export function ProductsSection() {
   // Helper function untuk format nomor WA (menghapus 0 di depan jika user input manual, dll)
   const getWhatsAppLink = (product: typeof products[0]) => {
     // Default number jika tidak ada di data
-    const phoneNumber = product.phoneNumber || "6281234567890";
+    const phoneNumber = product.phoneNumber || "6282241651176";
     const text = encodeURIComponent(`Halo, saya ingin memesan ${product.name}. Apakah masih tersedia?`);
     return `https://wa.me/${phoneNumber}?text=${text}`;
   };

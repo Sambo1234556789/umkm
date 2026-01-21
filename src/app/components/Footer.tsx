@@ -117,7 +117,7 @@ export function Footer() {
 
         {/* Bottom Bar */}
         <div className="border-t border-white/20 pt-8 text-center text-white/60">
-          <p>&copy; 2026 Camilan Jatiayu. Semua hak cipta dilindungi.</p>
+          <p>&copy; 2025/2026 Camilan Jatiayu. Semua hak cipta dilindungi.</p>
         </div>
       </div>
     </footer>

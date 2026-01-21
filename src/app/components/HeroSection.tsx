@@ -1,6 +1,6 @@
 import { Button } from "./ui/button";
 // 1. Import gambar utama dan gambar latar
-import HeroImg from "../../assets/Hero Image.png";
+import HeroImg from "../../assets/Hero_Image.png";
 import BaksoImg from "../../assets/Bakso_MasDarno.jpeg"; // Ganti dengan nama file gambar latar Anda
 
 export function HeroSection() {
