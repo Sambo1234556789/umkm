@@ -11,17 +11,18 @@ export function Footer() {
             <h3 className="text-2xl">KKN-T UDB Jatiayu 2025/2026</h3>
             <p className="text-white/80">
               Menggali potensi, memberdayakan masyarakat. Sebuah dedikasi dari Mahasiswa KKN-T Universitas Duta Bangsa Periode 2025/2026.
+              Hubungi kami untuk menambahkan produk UMKM anda disini ^.^
             </p>
             <div className="flex gap-3">
               <a 
-                href="https://tiktok.com/@kknt.udb.gedangrejo" 
+                href="https://www.tiktok.com/@kkndesajatiayu2025" 
                 className="w-10 h-10 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center transition-colors"
                 aria-label="Tiktok"
               >
                 <Music className="w-5 h-5" />
               </a>
               <a 
-                href="https://instagram.com/kkn.gedangrejo" 
+                href="https://instagram.com/kkn.udb.jatiayu" 
                 className="w-10 h-10 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center transition-colors"
                 aria-label="Instagram"
               >
@@ -71,8 +72,8 @@ export function Footer() {
               <li className="flex items-start gap-3">
                 <Mail className="w-5 h-5 mt-1 flex-shrink-0" />
                 <div>
-                  <a href="mailto:kkntgedangrejokarangmojo@gmail.com" className="hover:text-accent transition-colors">
-                    kkntgedangrejokarangmojo@gmail.com
+                  <a href="mailto:kknjatiayukarangmojo@gmail.com" className="hover:text-accent transition-colors">
+                    mailto:kknjatiayukarangmojo@gmail.com
                   </a>
                 </div>
               </li>
@@ -91,7 +92,8 @@ export function Footer() {
             <h4>Lokasi Kami</h4>
             <div className="relative h-40 rounded-lg overflow-hidden bg-white/10">
               <iframe
-                src="https://maps.google.com/maps?q=Gedangrejo,%20Kec.%20Karangmojo,%20Kabupaten%20Gunungkidul,%20Daerah%20Istimewa%20Yogyakarta&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                src="https://maps.google.com/maps?q=Jatiayu,%20Kec.%20Karangmojo,%20Kabupaten%20Gunungkidul,%20Daerah%20Istimewa%20Yogyakarta&t=&z=13&ie=UTF8&iwloc=&output=embed
+"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}

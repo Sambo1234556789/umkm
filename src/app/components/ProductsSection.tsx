@@ -13,24 +13,24 @@ import AlpukatKocokImg from "../../assets/Alpukat_Kocok.jpeg";
 const products = [
   {
     id: 1,
-    name: "Peyek & Kripik Tempe Lariso",
-    description: "Cita rasa otentik sejak 1996 yang diolah istimewa dengan bumbu rempah uleg asli dan minyak berkualitas.",
-    price: "Rp 65.000 - 75.000 /kg",
+    name: "Dua Anak (Aneka oleh oleh Khas Gunung Kidul)",
+    description: "Menghadirkan berbagai macam produk olahan lokal seperti Krecek, Lanting, Gatot, Tiwul, Dan Aneka kripik dengan varian rasa yang menarik",
+    price: "Mulai Rp 8.000",
     image: KripikImg,
     rating: 4.9,
-    sold: "500+",
+    sold: "300+ /Minggu",
     category: "Camilan",
     phoneNumber: "6281234567890", // Ganti dengan nomor WA Lariso jika ada
   },
   {
     id: 2,
-    name: "Warung Laras (Gudeg)",
-    description: "Warung Laras menghadirkan cita rasa otentik Gudeg dan masakan Jawa rumahan sejak 2015 dengan pelayanan sepenuh hati.",
-    price: "Mulai Rp 10.000",
+    name: "Anisa Krupuk (Aneka Kerupuk)",
+    description: "Anisa Kerupuk menghadirkan berbagai cita rasa kerupuk buatan lokal sejak 2019 dengan pelayanan sepenuh hati.",
+    price: "Mulai Rp 5.000",
     image: GudegImg, // Ilustrasi Gudeg
     rating: 4.8,
-    sold: "450+",
-    category: "Makanan Berat",
+    sold: "450+ /Minggu",
+    category: "Makanan Ringan",
     phoneNumber: "6281234567890", // Ganti dengan nomor WA Warung Laras
   },
   {
