@@ -2,12 +2,9 @@ import { useState } from "react";
 import { Button } from "./ui/button";
 import { Card } from "./ui/card";
 import { MessageCircle, Star, X } from "lucide-react";
-import DawetImg from "../../assets/Dawet_Pakdul.jpeg";
-import BaksoImg from "../../assets/Bakso_MasDarno.jpeg";
-import KripikImg from "../../assets/Kripik_Lariso.jpeg";
+import DuaanakImg from "../../assets/Duaanak.jpg";
 import KrupukImg from "../../assets/Anisa_Krupuk.png";
-import NasiPadangImg from "../../assets/Nasi_Padang.jpeg";
-import AlpukatKocokImg from "../../assets/Alpukat_Kocok.jpeg";
+import KripisImg from "../../assets/Kripis.jpg";
 
 // Data produk diperbarui berdasarkan informasi UMKM sebelumnya
 const products = [
@@ -16,11 +13,11 @@ const products = [
     name: "Dua Anak (Aneka oleh oleh Khas Gunung Kidul)",
     description: "Menghadirkan berbagai macam produk olahan lokal seperti Krecek, Lanting, Gatot, Tiwul, Dan Aneka kripik dengan varian rasa yang menarik",
     price: "Mulai Rp 8.000",
-    image: KripikImg,
+    image: DuaanakImg,
     rating: 4.9,
     sold: "300+ /Minggu",
     category: "Camilan",
-    phoneNumber: "6281234567890", // Ganti dengan nomor WA Lariso jika ada
+    phoneNumber: "6285741141317", // Ganti dengan nomor WA Lariso jika ada
   },
   {
     id: 2,
@@ -31,51 +28,18 @@ const products = [
     rating: 4.8,
     sold: "450+ /Minggu",
     category: "Makanan Ringan",
-    phoneNumber: "6281234567890", // Ganti dengan nomor WA Warung Laras
+    phoneNumber: "62812345678", // Ganti dengan nomor WA Warung Laras
   },
   {
     id: 3,
-    name: "Bakso Pak Darno",
-    description: "Nikmati bakso sapi dan ayam olahan Pak Darno yang lezat, halal, dan terjangkau sejak 2012.",
-    price: "Rp 7.000 /porsi",
-    image: BaksoImg, // Ilustrasi Bakso
+    name: "Kripis (Kripik Pisang)",
+    description: "Aneka rasa kripik pisang, diolah dengan sepenuh hati tanpa bahan pengawet buatan.",
+    price: "Mulai Rp. 10.000",
+    image: KripisImg, // Ilustrasi Bakso
     rating: 4.7,
-    sold: "110+ /hari",
-    category: "Makanan Berat",
-    phoneNumber: "6281234567890", // Ganti dengan nomor WA Pak Darno
-  },
-  {
-    id: 4,
-    name: "Es Dawet Pak Dul",
-    description: "Rasakan kesegaran alami Es Dawet Pak Dul yang diracik khusus menggunakan bahan asli dari Klaten.",
-    price: "Rp 4.000",
-    image: DawetImg, // Ilustrasi Dawet/Minuman Hijau
-    rating: 4.8,
-    sold: "150+ /hari",
-    category: "Minuman",
-    phoneNumber: "6281234567890", // Ganti dengan nomor WA Pak Dul
-  },
-  {
-    id: 5,
-    name: "Kocokin Aja (Alpukat Kocok)",
-    description: "Segarkan harimu dengan Es Kocok Alpukat 'Kocokin Aja Karangmojo' yang nikmat dan ramah di kantong.",
-    price: "Mulai Rp 7.000",
-    image: AlpukatKocokImg,
-    rating: 5.0,
-    sold: "25+ /hari",
-    category: "Minuman",
-    phoneNumber: "6285967023086", // Sesuai data input
-  },
-  {
-    id: 6,
-    name: "Rumah Makan Nasi Padang Asli",
-    description: "Rasakan kelezatan otentik masakan Minang yang diracik langsung oleh keluarga asli Padang dengan resep turun-temurun.",
-    price: "Mulai Rp 15.000",
-    image: NasiPadangImg, // Ilustrasi Nasi Padang/Rendang
-    rating: 4.9,
-    sold: "300+",
-    category: "Makanan Berat",
-    phoneNumber: "6289652215073", // Sesuai data input
+    sold: "110+ /Minggu",
+    category: "Makanan Ringan",
+    phoneNumber: "6283103622760", // Ganti dengan nomor WA Pak Darno
   },
 ];
 

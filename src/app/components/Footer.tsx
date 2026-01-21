@@ -73,7 +73,7 @@ export function Footer() {
                 <Mail className="w-5 h-5 mt-1 flex-shrink-0" />
                 <div>
                   <a href="mailto:kknjatiayukarangmojo@gmail.com" className="hover:text-accent transition-colors">
-                    mailto:kknjatiayukarangmojo@gmail.com
+                    kknjatiayukarangmojo@gmail.com
                   </a>
                 </div>
               </li>
@@ -117,7 +117,7 @@ export function Footer() {
 
         {/* Bottom Bar */}
         <div className="border-t border-white/20 pt-8 text-center text-white/60">
-          <p>&copy; 2025/2026 Camilan Jatiayu. Semua hak cipta dilindungi.</p>
+          <p>&copy; 2025 Camilan Jatiayu. Semua hak cipta dilindungi.</p>
         </div>
       </div>
     </footer>
